@@ -1,0 +1,11 @@
+#!/bin/bash
+
+trap handle_term SIGTERM
+
+handle_term() {
+  echo "Oops, not so easy to kill, huh? 😎"
+}
+
+while true; do
+  echo > /dev/null
+done
