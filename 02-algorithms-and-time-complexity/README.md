@@ -21,8 +21,8 @@ The time complexity for this naive implementation is `O(2^n)`.
 
 #### Your Task
 
-1. Come up with a `O(n)` time complexity implementation of the Fibonacci Sequence. Bonus points for a solution that has `O(1)` space complexity, and another that has `O(n)` space complexity.
-2. Come up with a `O(1)` time complexity implementation of the Fibonacci Sequence for `n <= 1000`. Bonus points for including both an approximate* solution, and an exact solution.
+1. Come up with an `O(n)` time complexity implementation of the Fibonacci Sequence. Bonus points for a solution that has `O(1)` space complexity, and another that has `O(n)` space complexity.
+2. Come up with an `O(1)` time complexity implementation of the Fibonacci Sequence for `n <= 1000`. Bonus points for including both an approximate* solution, and an exact solution.
 
 \* The "approximate" solution will require you to make some assumptions about the time complexity of auxiliary operations. Make those assumptions explicit.
 
@@ -41,8 +41,8 @@ The output should include each character with its respective count, and also the
 
 For example, given the string `FazendaTech is a pioneer on Generative AI technology!`, the output should include something like this:
 
-> [!NOTE]  
-> Ideally, your output should be a bit more readable. This output structure is not a requirement, so try to make it a bit more readable.
+> [!NOTE]
+> Ideally, your output should be a bit more readable. This output structure is not a requirement, so try to improve on it.
 
 ```
 f F 1
@@ -69,7 +69,7 @@ y y 1
 
 #### Your Task
 
-> [!CAUTION]  
+> [!CAUTION]
 > Your solution should be in JavaScript. Bonus points if you include some useful TypeScript type definitions (don't go overboard on the definitions!)
 
 1. Implement a function that receives a string and returns the output as described above.
