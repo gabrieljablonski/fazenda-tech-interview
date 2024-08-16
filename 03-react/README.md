@@ -81,7 +81,7 @@ export default function ItemsList({ items }: ItemsListProps) {
 
 #### Your Task
 
-This component works, but it's missing an essential details that could improve its performance, specially considering the list of items can change frequently.
+This component works, but it's missing an essential detail that could improve its performance, specially considering the list of items can change frequently.
 
 1. What is the missing detail?
 2. How would you implement it?

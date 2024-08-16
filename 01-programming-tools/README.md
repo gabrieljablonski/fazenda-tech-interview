@@ -10,7 +10,7 @@ It covers Git and Linux commands. Even if you're not familiar with these tools, 
 
 You're working on a project with a colleague. This project is version-controlled using Git, and your team uses a project management tool to track tasks and issues.
 
-The current task you're working on is to add a `discount` arg to a function.
+The current task you're working on is to add a `discount_rate` arg to a function.
 Here's the original file:
 
 ```python
@@ -27,7 +27,7 @@ def calculate_total(price, tax_rate, discount_rate=0):
   return total
 ```
 
-When you try to merge the changes into the main branch, you encounter a merge conflict, but you can't find any tasks related to this change in your project management tool.
+When you try to merge the changes into the main branch, you encounter a merge conflict due do a commit from your colleague, but you can't find any tasks related to this change in your project management tool.
 
 #### Your Task
 
@@ -57,12 +57,12 @@ Use the provided script [`02-logging`](./02-logging) as the stand-in for the bin
 
 You're working on a Linux server, and noticed there's a process that's consuming a lot of CPU and memory.
 
-You know this process is not critical to the system, and you need to kill it before you can investigate the causes of the problem, since it's impacting other services.
+You know this process is not critical to the system, and, since it's impacting other services, you need to kill it before you can investigate the causes of the problem.
 
 #### Your task
 
-1. Detail the steps you would take to kill the process as quick as possible, including the commands you would use.
-2. Come up with a bash script that automates killing the process, assuming you know the name of the binary file that's running.
+1. Detail the steps you would take to kill the process as quickly as possible, including the commands you would use.
+2. Come up with a bash script that automates killing a process, assuming you know the name of the binary file that's running.
 
 > [!CAUTION]
 > Do not install any additional software or tools. Use only the commands available in a standard Linux distribution.
