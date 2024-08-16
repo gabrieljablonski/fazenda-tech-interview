@@ -1,3 +1,3 @@
-def calculate_total(price, tax_rate, decimal_places=2):
+def calculate_total(price, tax_rate):
   total = (1 + tax_rate) * price
-  return round(total, decimal_places)
+  return total
