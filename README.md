@@ -6,7 +6,7 @@ Please read them carefully and follow them as closely as possible, though you ma
 
 ## Preparation
 
-This is a "take-home" challenge, so you can complete it at your own pace. We expect you to spend 1 to 2 hours on it, but you can take as long as you need.
+This is a "take-home" challenge, so you can complete it at your own pace. We expect you to spend 2 to 3 hours on it, but you can take as long as you need.
 
 > [!IMPORTANT]
 > Your solution should be submitted as fork of this repository, on your own GitHub account (or on any other Git provider you use).
