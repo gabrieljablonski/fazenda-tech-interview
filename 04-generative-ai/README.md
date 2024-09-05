@@ -9,7 +9,7 @@ There are no right or wrong answers here, so try to be as creative as you can. I
 Here we provide 3 different problems for you to solve. You can choose to solve all of them or just a few. For the sake of not making this challenge too long, we recommend you solve at least 2 problems. Make sure to read all of them first, and pick the ones you feel will better demonstrate your problem solving skills.
 
 > [!IMPORTANT]
-> All problems involve creating a LLM Agent prompt. You can use any LLM Agent you want, you'll be evaluated on the quality of the prompt and the adjustments you make to it, not necessarily on the output of the LLM. We recommend using the free versions of [ChatGPT](https://chatgpt.com/), [Claude](https://claude.ai/), or [Gemini](https://gemini.google.com/), but feel free to use any other LLM chat interface you're comfortable with.
+> All problems involve creating a LLM Agent prompt. You can use any model you want, you'll be evaluated on the quality of the prompt and the adjustments you make to it, not necessarily on the output of the Agent. We recommend using the free versions of [ChatGPT](https://chatgpt.com/), [Claude](https://claude.ai/), or [Gemini](https://gemini.google.com/), but feel free to use any other LLM chat interface you're comfortable with.
 
 > [!IMPORTANT]
 > Make sure to document the process you followed to create the prompt and the adjustments you made to it (and why you made them). Providing just the final prompt you created will not be enough to understand how you approached the problem. Consider also providing a "share link" to the chat conversation with your solutions, but this is not mandatory.
@@ -31,7 +31,7 @@ Describe a situation in which a LLM Agent needs to interact with a user that wan
 
 You are provided a DANFE (Documento Auxiliar da Nota Fiscal Eletrônica) in PDF format. The DANFE is a simplified version of the NF-e, and it contains some of the  information from the NF-e (which is in XML format) in a more human-readable format.
 
-Given the provided DANFE ([sample-danfe.pdf](./sample-danfe.pdf), from a non-production environment NF-e), create a prompt extracts the necessary information from the DANFE, and provides a plain text summary of the information extracted, and a JSON output that could be used to issue a similar NF-e.
+Given the provided DANFE ([sample-danfe.pdf](./sample-danfe.pdf), from a non-production environment NF-e), create a prompt that extracts the necessary information from the DANFE, and provides a plain text summary of the information extracted, and a JSON output that could be used to issue a similar NF-e.
 
 #### Your task
 
@@ -40,7 +40,7 @@ Given the provided DANFE ([sample-danfe.pdf](./sample-danfe.pdf), from a non-pro
 
 ### Problem 03 - Information Summarization
 
-The Brazilian tax system is complex, and many people are unsure about how to calculate taxes. Create a prompt that helps a farmer understand it. It should explain, in non-technical terms, which taxes are usually paid when selling agricultural products, when they DON'T need to be paid, and what they're used for (e.g., social security, country's infrastructure, etc.).
+The Brazilian tax system is complex, and many people are unsure about how to calculate taxes. Create a prompt that helps a farmer understand it. It should explain, in non-technical terms, which taxes are usually paid when selling agricultural products, when they DON'T need to be paid (tax exemption), and what they're used for (e.g., social security, country's infrastructure, etc.).
 
 #### Your Task
 
